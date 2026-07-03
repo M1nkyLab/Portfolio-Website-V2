@@ -3,6 +3,7 @@ import "./globals.css";
 import LenisProvider from "@/components/common/LenisProvider";
 import MagneticCursor from "@/components/common/MagneticCursor";
 import Preloader from "@/components/common/Preloader";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Syed Haziq",
@@ -21,6 +22,7 @@ export default function RootLayout({
         <LenisProvider>
           <MagneticCursor />
           {children}
+          <SpeedInsights />
         </LenisProvider>
       </body>
     </html>
