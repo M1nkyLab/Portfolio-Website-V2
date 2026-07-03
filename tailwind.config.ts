@@ -9,9 +9,27 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        rora: {
+          bg: 'var(--rora-bg)',
+          surface: 'var(--rora-surface)',
+          gold: 'var(--rora-gold)',
+          'gold-dim': 'var(--rora-gold-dim)',
+          text: 'var(--rora-text)',
+          muted: 'var(--rora-muted)',
+          success: 'var(--rora-success)',
+          danger: 'var(--rora-danger)',
+        }
       },
+      fontFamily: {
+        display: ['var(--font-clash)'],
+        body: ['var(--font-cabinet)'],
+        mono: ['var(--font-dm-mono)'],
+      },
+      borderRadius: {
+        card: '2px',
+        btn: '6px',
+        bleed: '0px'
+      }
     },
   },
   plugins: [],
