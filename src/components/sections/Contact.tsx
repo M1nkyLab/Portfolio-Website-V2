@@ -1,6 +1,6 @@
 "use client";
 
-import { MessageSquare, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="flex flex-col items-center justify-center flex-1 my-16 text-center">
         <h2 className="text-[10vw] leading-[0.85] font-display font-bold tracking-wide">
           Say hello,<br />
-          I don't bite.
+          I don&apos;t bite.
         </h2>
 
         <a 

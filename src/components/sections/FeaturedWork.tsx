@@ -34,7 +34,7 @@ export default function FeaturedWork() {
         {/* Quote Section */}
         <div className="w-full min-h-[60vh] flex flex-col justify-center items-center text-center px-4 mb-24">
           <p className="text-rora-text/80 font-body max-w-4xl text-2xl md:text-4xl lg:text-5xl leading-relaxed font-medium">
-            "Even though it&apos;s not the perfect project, it&apos;s a part of the learning process for me to make it better in the future."
+            &quot;Even though it&apos;s not the perfect project, it&apos;s a part of the learning process for me to make it better in the future.&quot;
           </p>
         </div>
         
