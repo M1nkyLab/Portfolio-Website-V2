@@ -6,8 +6,15 @@ import Preloader from "@/components/common/Preloader";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
-  title: "Syed Haziq",
-  description: "Portfolio of Syed Haziq, Frontend Developer",
+  title: "Syed Haziq | Portfolio",
+  description: "Vibe Coding Intern & Frontend Developer showcasing my latest projects and skills.",
+  keywords: ["Syed Haziq", "Web Developer", "Portfolio", "Frontend Developer", "Next.js"],
+  openGraph: {
+    title: "Syed Haziq | Portfolio",
+    description: "Vibe Coding Intern & Frontend Developer showcasing my latest projects and skills.",
+    url: "https://your-website.vercel.app", // Make sure to update this with your actual URL
+    type: "website",
+  },
 };
 
 export default function RootLayout({
