@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Syed Haziq | Portfolio",
     description: "Vibe Coding Intern & Frontend Developer showcasing my latest projects and skills.",
-    url: "https://your-website.vercel.app", // Make sure to update this with your actual URL
+    url: "https://portfolio-website-v2-nu.vercel.app",
     type: "website",
   },
 };
