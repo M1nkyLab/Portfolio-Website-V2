@@ -40,7 +40,7 @@ export default function CornerButton({ position, label, onOpen }: CornerButtonPr
         className={`absolute ${textClasses} z-40 pointer-events-none`}
         animate={{ 
           scale: isHovered ? 1.05 : 1, 
-          color: isHovered ? "#603434" : "#111111" // from user request: "change to this color #603434 for the hover effect"
+          color: isHovered ? "var(--syedhaziq-gold)" : "var(--syedhaziq-text)" 
         }}
         transition={{ duration: 0.3, ease: "easeOut" }}
       >

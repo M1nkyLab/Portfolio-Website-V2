@@ -65,10 +65,10 @@ export default function PagePeelLayout({ topLayer, sections, labels }: PagePeelL
   const currentVariant = openedSection ? `peel_${openedSection.replace("-", "_")}` : "initial";
 
   return (
-    <div className="relative w-full min-h-screen bg-rora-bg">
+    <div className="relative w-full min-h-screen bg-syedhaziq-bg">
       
       {/* Background Layer */}
-      <div className="w-full min-h-screen z-0 bg-rora-bg">
+      <div className="w-full min-h-screen z-0 bg-syedhaziq-bg">
         {openedSection && (
           <div className="w-full min-h-screen">
             {sections[openedSection]}
@@ -78,7 +78,7 @@ export default function PagePeelLayout({ topLayer, sections, labels }: PagePeelL
 
       {/* Top Layer: The Home Page */}
       <motion.div 
-        className="absolute inset-0 w-full h-screen z-10 origin-center bg-rora-bg overflow-hidden pointer-events-none"
+        className="absolute inset-0 w-full h-screen z-10 origin-center bg-syedhaziq-bg overflow-hidden pointer-events-none"
         variants={peelVariants}
         initial="initial"
         animate={currentVariant}
@@ -118,7 +118,7 @@ export default function PagePeelLayout({ topLayer, sections, labels }: PagePeelL
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0 }}
             onClick={handleClose}
-            className="fixed top-8 right-8 z-50 p-3 bg-rora-bg text-rora-text rounded-full hover:bg-[#603434] hover:text-[#f4f3ef] transition-colors shadow-lg pointer-events-auto"
+            className="fixed top-8 right-8 z-50 p-3 bg-syedhaziq-bg text-syedhaziq-text rounded-full hover:bg-syedhaziq-gold hover:text-syedhaziq-bg transition-colors shadow-lg pointer-events-auto"
           >
             <X size={24} />
           </motion.button>

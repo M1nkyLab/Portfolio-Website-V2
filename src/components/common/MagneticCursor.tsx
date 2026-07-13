@@ -32,15 +32,15 @@ export default function MagneticCursor() {
       // Check if hovering over a deep red background section
       const target = e.target as HTMLElement;
       if (target.closest && target.closest('[data-cursor-invert="true"]')) {
-        cursor.classList.add('border-[#f4f3ef]', 'bg-[#f4f3ef]/20');
-        cursor.classList.remove('border-[#603434]', 'bg-[#603434]/10');
-        glow.classList.add('bg-[#f4f3ef]');
-        glow.classList.remove('bg-[#603434]');
+        cursor.classList.add('border-syedhaziq-bg', 'bg-syedhaziq-bg/20');
+        cursor.classList.remove('border-syedhaziq-gold', 'bg-syedhaziq-gold/10');
+        glow.classList.add('bg-syedhaziq-bg');
+        glow.classList.remove('bg-syedhaziq-gold');
       } else {
-        cursor.classList.add('border-[#603434]', 'bg-[#603434]/10');
-        cursor.classList.remove('border-[#f4f3ef]', 'bg-[#f4f3ef]/20');
-        glow.classList.add('bg-[#603434]');
-        glow.classList.remove('bg-[#f4f3ef]');
+        cursor.classList.add('border-syedhaziq-gold', 'bg-syedhaziq-gold/10');
+        cursor.classList.remove('border-syedhaziq-bg', 'bg-syedhaziq-bg/20');
+        glow.classList.add('bg-syedhaziq-gold');
+        glow.classList.remove('bg-syedhaziq-bg');
       }
     };
 
@@ -56,13 +56,13 @@ export default function MagneticCursor() {
       {/* Glow effect */}
       <div
         ref={glowRef}
-        className="pointer-events-none fixed left-0 top-0 z-[50] hidden h-[250px] w-[250px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#603434] opacity-[0.25] blur-[70px] transition-colors duration-500 md:block"
+        className="pointer-events-none fixed left-0 top-0 z-[50] hidden h-[250px] w-[250px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-syedhaziq-gold opacity-[0.25] blur-[70px] transition-colors duration-500 md:block"
       />
       
       {/* Small dot cursor */}
       <div
         ref={cursorRef}
-        className="pointer-events-none fixed left-0 top-0 z-[100] hidden h-4 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#603434] bg-[#603434]/10 transition-colors duration-500 md:block"
+        className="pointer-events-none fixed left-0 top-0 z-[100] hidden h-4 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full border border-syedhaziq-gold bg-syedhaziq-gold/10 transition-colors duration-500 md:block"
       />
     </>
   );

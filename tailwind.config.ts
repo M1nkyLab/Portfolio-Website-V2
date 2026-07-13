@@ -9,20 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        rora: {
-          bg: 'var(--rora-bg)',
-          surface: 'var(--rora-surface)',
-          gold: 'var(--rora-gold)',
-          'gold-dim': 'var(--rora-gold-dim)',
-          text: 'var(--rora-text)',
-          muted: 'var(--rora-muted)',
-          success: 'var(--rora-success)',
-          danger: 'var(--rora-danger)',
+        syedhaziq: {
+          bg: 'var(--syedhaziq-bg)',
+          surface: 'var(--syedhaziq-surface)',
+          gold: 'var(--syedhaziq-gold)',
+          'gold-dim': 'var(--syedhaziq-gold-dim)',
+          text: 'var(--syedhaziq-text)',
+          muted: 'var(--syedhaziq-muted)',
+          success: 'var(--syedhaziq-success)',
+          danger: 'var(--syedhaziq-danger)',
         }
       },
       fontFamily: {
-        display: ['var(--font-clash)'],
-        body: ['var(--font-cabinet)'],
+        display: ['var(--font-display)'],
+        body: ['var(--font-body)'],
         mono: ['var(--font-dm-mono)'],
       },
       borderRadius: {

@@ -7,7 +7,7 @@ import PagePeelLayout from "@/components/common/PagePeelLayout";
 
 export default function Home() {
   return (
-    <main className="font-body selection:bg-rora-gold/30 selection:text-rora-gold">
+    <main className="font-body selection:bg-syedhaziq-gold/30 selection:text-syedhaziq-gold">
       <PagePeelLayout 
         topLayer={<Hero />}
         sections={{

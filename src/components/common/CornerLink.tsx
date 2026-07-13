@@ -95,7 +95,7 @@ export default function CornerLink({ position, text, href }: CornerLinkProps) {
     >
       {/* Background reveal (The color of the next page) */}
       <motion.div
-        className={`absolute ${posClasses} bg-[#603434] pointer-events-none`}
+        className={`absolute ${posClasses} bg-syedhaziq-gold pointer-events-none`}
         style={{
           width: foldSize,
           height: foldSize,
@@ -104,7 +104,7 @@ export default function CornerLink({ position, text, href }: CornerLinkProps) {
       
       {/* The Folded Paper Flap */}
       <motion.div
-        className={`absolute ${posClasses} bg-[#e8e6df] shadow-2xl pointer-events-none origin-center`}
+        className={`absolute ${posClasses} bg-syedhaziq-surface shadow-2xl pointer-events-none origin-center`}
         style={{
           width: foldSize,
           height: foldSize,
@@ -127,7 +127,7 @@ export default function CornerLink({ position, text, href }: CornerLinkProps) {
 
       {/* The Link Text */}
       <div className={`absolute ${isTop ? 'top-8 md:top-12' : 'bottom-8 md:bottom-12'} ${isLeft ? 'left-6 md:left-12' : 'right-6 md:right-12'} pointer-events-none`}>
-        <span className="text-rora-text text-xs md:text-sm font-display font-medium tracking-[0.2em] uppercase transition-opacity">
+        <span className="text-syedhaziq-text text-xs md:text-sm font-display font-medium tracking-[0.2em] uppercase transition-opacity">
           {text}
         </span>
       </div>

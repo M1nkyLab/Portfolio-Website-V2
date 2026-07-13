@@ -49,7 +49,7 @@ export default function Preloader() {
       <AnimatePresence>
         {isLoading && (
           <motion.div
-            className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-rora-bg"
+            className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-syedhaziq-bg"
             initial={{ y: 0 }}
             exit={{ y: "-100%" }}
             transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
@@ -61,7 +61,7 @@ export default function Preloader() {
                   {percentage < 100 ? (
                     <motion.div 
                       key="percentage"
-                      className="text-[#603434] text-2xl md:text-3xl font-bold tracking-widest font-display uppercase"
+                      className="text-syedhaziq-gold text-2xl md:text-3xl font-bold tracking-widest font-display uppercase"
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       exit={{ opacity: 0 }}
@@ -72,7 +72,7 @@ export default function Preloader() {
                   ) : (
                     <motion.div 
                       key="welcome"
-                      className="text-[#603434] text-2xl md:text-3xl font-bold tracking-[0.3em] md:tracking-[0.4em] font-display uppercase ml-2"
+                      className="text-syedhaziq-gold text-2xl md:text-3xl font-bold tracking-[0.3em] md:tracking-[0.4em] font-display uppercase ml-2"
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0 }}
@@ -85,9 +85,9 @@ export default function Preloader() {
               </div>
 
               {/* Horizontal Line Progress */}
-              <div className="w-64 md:w-80 h-[3px] bg-[#603434]/20 relative overflow-hidden rounded-full">
+              <div className="w-64 md:w-80 h-[3px] bg-syedhaziq-gold/20 relative overflow-hidden rounded-full">
                 <motion.div
-                  className="absolute top-0 left-0 h-full bg-[#603434]"
+                  className="absolute top-0 left-0 h-full bg-syedhaziq-gold"
                   initial={{ width: "0%" }}
                   animate={{ width: `${percentage}%` }}
                   transition={{ ease: "linear", duration: 0.2 }}

@@ -5,7 +5,7 @@ import HoverGrid from "../common/HoverGrid";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 md:px-12 lg:px-24 bg-rora-bg">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 md:px-12 lg:px-24 bg-syedhaziq-bg">
       {/* Noise Overlay */}
       <div 
         className="pointer-events-none absolute inset-0 z-0 opacity-[0.15] mix-blend-screen"
@@ -22,7 +22,7 @@ export default function Hero() {
         
         <LoopingHeadline 
           texts={["Syed Haziq", "Frontend Developer", "UI Engineer"]} 
-          className="text-5xl md:text-7xl lg:text-[5.5rem] font-display font-medium text-rora-text leading-[1.05] tracking-tight mb-8 text-center" 
+          className="text-5xl md:text-7xl lg:text-[5.5rem] font-display font-black text-syedhaziq-text leading-[1.05] tracking-tight mb-8 text-center" 
         />
         
 

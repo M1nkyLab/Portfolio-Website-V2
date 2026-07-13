@@ -4,43 +4,28 @@
 
 const projects = [
   {
-    title: "Visual Symphony",
-    image: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?q=80&w=1200&auto=format&fit=crop",
-    link: "#"
-  },
-  {
-    title: "Re:Label",
-    image: "https://images.unsplash.com/photo-1615397323674-325dbb263df3?q=80&w=1200&auto=format&fit=crop",
-    link: "#"
-  },
-  {
-    title: "Maybank Dashboard",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
-    link: "#"
-  },
-  {
-    title: "Cinematic Portfolio",
-    image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1200&auto=format&fit=crop",
+    title: "Cave",
+    image: "/images/coming-soon.svg",
     link: "#"
   }
 ];
 
 export default function FeaturedWork() {
   return (
-    <section id="work" className="bg-[#faebe3] min-h-screen py-24 px-6 md:px-12 lg:px-24">
+    <section id="work" className="bg-syedhaziq-surface min-h-screen py-24 px-6 md:px-12 lg:px-24">
       
       <div className="max-w-[1600px] mx-auto">
         
         {/* Quote Section */}
-        <div className="w-full min-h-[60vh] flex flex-col justify-center items-center text-center px-4 mb-24">
-          <p className="text-rora-text/80 font-body max-w-4xl text-2xl md:text-4xl lg:text-5xl leading-relaxed font-medium">
+        <div className="w-full min-h-screen flex flex-col justify-center items-center text-center px-4 mb-24">
+          <p className="text-syedhaziq-text/80 font-body max-w-4xl text-2xl md:text-4xl lg:text-5xl leading-relaxed font-medium">
             &quot;Even though it&apos;s not the perfect project, it&apos;s a part of the learning process for me to make it better in the future.&quot;
           </p>
         </div>
         
         {/* Projects Section */}
         <div className="mb-16 w-full">
-          <h2 className="text-3xl md:text-5xl font-body font-bold text-[#603434]">
+          <h2 className="text-3xl md:text-5xl font-body font-bold text-syedhaziq-gold">
             Things I&apos;m proud of
           </h2>
         </div>
@@ -63,7 +48,7 @@ export default function FeaturedWork() {
               
               {/* Text Below */}
               <div className="mt-2 inline-block">
-                <h3 className="text-xl md:text-2xl font-body font-bold text-[#603434] transition-colors">
+                <h3 className="text-xl md:text-2xl font-body font-bold text-syedhaziq-gold transition-colors">
                   {project.title}
                 </h3>
               </div>

@@ -33,7 +33,7 @@ export default function HoverGrid() {
       {Array.from({ length: totalBoxes }).map((_, i) => (
         <div
           key={i}
-          className="w-full h-full border-[0.5px] border-transparent hover:bg-[#603434]/20 hover:border-[#603434]/30 transition-all hover:duration-0 duration-1000"
+          className="w-full h-full border-[0.5px] border-transparent hover:bg-syedhaziq-gold/20 hover:border-syedhaziq-gold/30 transition-all hover:duration-0 duration-1000"
         />
       ))}
     </div>
